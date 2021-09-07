@@ -1,0 +1,21 @@
+{
+    "name": "fabio.hiroki/ethereum-twitter-bot",
+    "description": "Bot that tweets the ethereum price",
+    "authors": [
+        {
+            "name": "Fabio Hiroki",
+            "email": "fabiothiroki@gmail.com"
+        }
+    ],
+    "require": {
+        "abraham/twitteroauth": "^3.1"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.10"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.98"
+    }
+}
