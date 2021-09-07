@@ -21,6 +21,7 @@
     },
     "license": "MIT",
     "scripts": {
-        "lint": "vendor/bin/phpstan analyse -c phpstan.neon"
+        "lint": "vendor/bin/phpstan analyse -c phpstan.neon",
+        "sniff": "./vendor/bin/php-cs-fixer fix -vvv --dry-run --show-progress=dots index.php",
     }
 }
