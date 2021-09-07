@@ -18,5 +18,8 @@
     "require-dev": {
         "phpstan/phpstan": "^0.12.98"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "scripts": {
+        "lint": "vendor/bin/phpstan analyse -c phpstan.neon"
+    }
 }
